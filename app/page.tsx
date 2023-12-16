@@ -12,7 +12,13 @@ export default function Home() {
     <>
       <header className="flex flex-row justify-between pt-10 px-32 items-center w-full">
         <div>
-          <Image src={Logo} height={100} width={100} alt="Logo" />
+          <Image
+            src={Logo}
+            height={100}
+            width={100}
+            alt="Logo msdev.digital - Marvin Splitt"
+            priority
+          />
           <span className="sr-only">Marvin Splitt</span>
         </div>
         <Button asChild className="rounded-3xl px-5">
@@ -23,6 +29,7 @@ export default function Home() {
       </header>
       <main className="flex flex-col items-center">
         <Image
+          priority
           className="mt-14"
           src={Construction}
           height={250}
