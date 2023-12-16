@@ -32,8 +32,9 @@ export default function Home() {
           Error 503: <span className="text-accent">Under Construction</span>
         </h1>
         <p className="max-w-3xl text-center text-xl mt-6">
-          Bald gibt es hier mehr zu sehen als nur virtuellen Baustaub. Ich
-          arbeite gerade daran meine Website auf den neuesten Stand zu bringen.
+          Soon there will be more to see than just virtual building dust.
+          <br />
+          I&apos;m currently working on revamping my website.
         </p>
 
         <Button asChild className="rounded-3xl px-8 py-4 mt-12">
