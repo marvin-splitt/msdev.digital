@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { aeonik } from "@/font/fonts";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${aeonik.variable}`}>
+      <head>
+        <Script
+          strategy="afterInteractive"
+          defer
+          data-domain="msdev.digital"
+          src="https://plausible.io/js/script.js"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
