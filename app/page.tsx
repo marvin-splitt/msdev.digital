@@ -3,11 +3,14 @@ import Construction from "@/public/construction.svg";
 import Logo from "@/public/msdev-logo.svg";
 import { Button } from "@/components/button";
 import Link from "next/link";
+import GitHub from "@/public/icons/github.svg";
+import Twitter from "@/public/icons/twitter.svg";
+import LinkedIn from "@/public/icons/linkedin.svg";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-      <header className="flex flex-row justify-between pt-24 px-32 items-center w-full">
+      <header className="flex flex-row justify-between pt-10 px-32 items-center w-full">
         <div>
           <Image src={Logo} height={100} width={100} alt="Logo" />
           <span className="sr-only">Marvin Splitt</span>
@@ -42,6 +45,17 @@ export default function Home() {
       </Button>
       <p className="text-gray-700 text-sm mt-2">20 min MVP Feedback</p>
       <div className="bg-black h-[146px] w-full mt-24"></div>
+      <div className="flex flex-row justify-center gap-6 mt-8">
+        <Link href="https://www.linkedin.com/in/marvin-splitt/">
+          <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
+        </Link>
+        <Link href="https://twitter.com/marvinsplitt">
+          <Image src={Twitter} height={24} width={24} alt="Twitter" />
+        </Link>
+        <Link href="https://github.com/marvin-splitt">
+          <Image src={GitHub} height={24} width={24} alt="GitHub" />
+        </Link>
+      </div>
     </main>
   );
 }
