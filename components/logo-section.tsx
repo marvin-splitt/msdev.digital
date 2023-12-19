@@ -50,7 +50,7 @@ export const LogoSection: React.FC = () => {
         />
       </div>
       <div
-        className="flex w-[400%] animate-scrolling-container sm:w-[100%] lg:hidden gap-8 px-8 items-center"
+        className="flex w-[400%] animate-scrolling-container sm:w-[100%] lg:hidden gap-12 px-8 items-center"
         aria-hidden={true}
       >
         <Image
@@ -67,13 +67,7 @@ export const LogoSection: React.FC = () => {
           alt="DigitalSocial.id (DSID) Logo"
           className="object-contain max-h-10"
         />
-        <Image
-          src={Globaleye}
-          height={52}
-          loading="eager"
-          alt="Globaleye Logo"
-          className="object-contain max-h-8"
-        />
+
         <Image
           src={Lbs}
           height={52}
@@ -83,10 +77,10 @@ export const LogoSection: React.FC = () => {
         />
 
         <Image
-          src={Spyce5}
+          src={Globaleye}
           height={52}
           loading="eager"
-          alt="Spyce5 Logo"
+          alt="Globaleye Logo"
           className="object-contain max-h-8"
         />
         <Image
@@ -95,6 +89,13 @@ export const LogoSection: React.FC = () => {
           loading="eager"
           alt="Neverfinal Logo"
           className="object-contain max-h-10"
+        />
+        <Image
+          src={Spyce5}
+          height={52}
+          loading="eager"
+          alt="Spyce5 Logo"
+          className="object-contain max-h-8"
         />
       </div>
     </div>
