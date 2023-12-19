@@ -50,6 +50,7 @@ export default function Home() {
           </p>
           <Button asChild className="rounded-3xl px-8 py-4 mt-12">
             <Link
+              target="_blank"
               href="https://cal.com/msplitt/prototype-audit"
               className="font-semibold"
             >
