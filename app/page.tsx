@@ -34,15 +34,16 @@ export default function Home() {
         <div className="container flex flex-col items-center">
           <Image
             priority
-            className="mt-14"
+            className="mt-14 px-8 w-full h-auto max-w-md lg:max-w-xl"
             src={Construction}
-            height={250}
+            height={280}
             alt="Under Construction"
           />
-          <h1 className="text-6xl font-bold mt-8">
-            Error 503: <span className="text-accent">Under Construction</span>
+          <h1 className="text-4xl lg:text-6xl font-bold mt-8 text-center">
+            Error 503: <br className="md:hidden" />
+            <span className="text-accent">Under Construction</span>
           </h1>
-          <p className="max-w-3xl text-center text-xl mt-6">
+          <p className="max-w-3xl text-center lg:text-xl mt-6">
             Soon there will be more to see than just virtual building dust.
             <br />
             I&apos;m currently working on revamping my website.
