@@ -3,6 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { aeonik } from "@/font/fonts";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Marvin Splitt - Product Developer",
@@ -25,7 +26,11 @@ export default function RootLayout({
           src="https://plausible.io/js/script.js"
         />
       </head>
-      <body className="min-h-screen w-full">{children}</body>
+
+      <body className="min-h-screen w-full">
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
