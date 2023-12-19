@@ -79,3 +79,9 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+@layer utilities {
+  .prose-custom {
+    @apply prose prose-lg prose-accent prose-a:no-underline;
+  }
+}
