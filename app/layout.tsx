@@ -25,7 +25,7 @@ export default function RootLayout({
           src="https://plausible.io/js/script.js"
         />
       </head>
-      <body>{children}</body>
+      <body className="min-h-screen w-full">{children}</body>
     </html>
   );
 }
