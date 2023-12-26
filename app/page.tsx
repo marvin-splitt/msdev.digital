@@ -24,7 +24,7 @@ export default function Home() {
           />
           <span className="sr-only">Marvin Splitt</span>
         </div>
-        <Button asChild className="rounded-3xl px-5">
+        <Button asChild size="wide" className="rounded-3xl">
           <Link href="mailto:marvin@msdev.digital" className="font-semibold">
             Contact
           </Link>

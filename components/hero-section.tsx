@@ -24,7 +24,11 @@ export const HeroSection: React.FC = () => {
           alt="Arrow Icon"
         />
       </div>
-      <Button asChild className="rounded-3xl px-8 py-4 mt-14">
+      <Button
+        asChild
+        size="lg"
+        className="rounded-3xl mt-14 font-semibold text-base"
+      >
         <Link
           target="_blank"
           href="https://cal.com/msplitt/prototype-audit"
