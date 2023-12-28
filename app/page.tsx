@@ -1,9 +1,7 @@
 import Image from "next/image";
-import { Button } from "@/components/button";
 import { LogoSection } from "@/components/logo-section";
 import { HeroSection } from "@/components/hero-section";
 
-import Logo from "@/public/logos/msdev-logo.svg";
 // Icons
 import Link from "next/link";
 import GitHub from "@/public/icons/github.svg";
@@ -13,49 +11,19 @@ import LinkedIn from "@/public/icons/linkedin.svg";
 export default function Home() {
   return (
     <>
-      <header className="flex flex-row justify-between pt-10 items-center container">
-        <div>
-          <Image
-            src={Logo}
-            height={100}
-            width={100}
-            alt="Logo msdev.digital - Marvin Splitt"
-            priority
-          />
-          <span className="sr-only">Marvin Splitt</span>
-        </div>
-        <Button asChild size="wide" className="rounded-3xl">
-          <Link href="mailto:marvin@msdev.digital" className="font-semibold">
-            Contact
-          </Link>
-        </Button>
-      </header>
-      <main>
-        <HeroSection />
-        <LogoSection />
-        <div className="flex flex-row justify-center gap-6 mt-8 items-center">
-          <Link href="https://www.linkedin.com/in/marvin-splitt/">
-            <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
-          </Link>
-          <Link href="https://twitter.com/marvinsplitt">
-            <Image src={Twitter} height={24} width={24} alt="Twitter" />
-          </Link>
-          <Link href="https://github.com/marvin-splitt">
-            <Image src={GitHub} height={24} width={24} alt="GitHub" />
-          </Link>
-        </div>
-      </main>
-      <footer className="flex flex-row justify-center items-center gap-4 mt-8">
-        <Link href="/imprint" className="text-gray-700 text-sm">
-          Imprint
+      <HeroSection />
+      <LogoSection />
+      <div className="flex flex-row justify-center gap-6 mt-8 items-center">
+        <Link href="https://www.linkedin.com/in/marvin-splitt/">
+          <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
         </Link>
-        {/* <Link
-          href="/privacy"
-          className="text-gray-700 text-sm"
-        >
-          Privacy
-        </Link> */}
-      </footer>
+        <Link href="https://twitter.com/marvinsplitt">
+          <Image src={Twitter} height={24} width={24} alt="Twitter" />
+        </Link>
+        <Link href="https://github.com/marvin-splitt">
+          <Image src={GitHub} height={24} width={24} alt="GitHub" />
+        </Link>
+      </div>
     </>
   );
 }

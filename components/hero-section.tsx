@@ -16,8 +16,8 @@ export const HeroSection: React.FC = () => {
           <br /> prototypes
         </h1>
         <p className="max-w-3xl text-center lg:text-xl mt-6">
-          Production-ready applications for start and scale-ups.
-          <br />
+          Production-ready applications for start and scale-ups.{" "}
+          <br className="hidden xs:block" />
           Fast, efficient and without unnecessary costs.
         </p>
         <Image
