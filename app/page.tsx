@@ -7,12 +7,14 @@ import Link from "next/link";
 import GitHub from "@/public/icons/github.svg";
 import Twitter from "@/public/icons/twitter.svg";
 import LinkedIn from "@/public/icons/linkedin.svg";
+import { BenefitsSection } from "@/components/benefits-section";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <LogoSection />
+      <BenefitsSection />
       <div className="flex flex-row justify-center gap-6 mt-8 items-center">
         <Link href="https://www.linkedin.com/in/marvin-splitt/">
           <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
