@@ -19,7 +19,7 @@ const Benefits: Benefit[] = [
     image: DevelopmentIcon,
   },
   {
-    title: "Strategic Sparring partner",
+    title: "Strategic sparring partner",
     description:
       "Are you looking for strategic support on the way to a market-ready prototype?",
     image: SparringPartnerIcon,
