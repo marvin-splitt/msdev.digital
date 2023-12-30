@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
       </div>
       <Button asChild size="wide" className="rounded-3xl">
         <Link href="mailto:hi@msdev.digital" className="font-semibold">
-          hi@msdev.digital
+          moin@msdev.digital
         </Link>
       </Button>
     </header>
