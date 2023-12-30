@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Marvin from "@/public/images/marvin.jpg";
+import Sparkle from "@/public/icons/sparkle.svg";
 
 const perks = [
   {
@@ -24,11 +25,28 @@ export const AboutSection: React.FC = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row gap-14 container mt-20 md:mt-32 lg:mt-36">
-        <Image
-          src={Marvin}
-          alt="Marvin Splitt - A Freelance Full-Stack Product Developer with focus on the conception and development of lean MVP's"
-          className="rounded-md w-full lg:w-[55%] h-auto object-contain"
-        />
+        <div className="relative lg:w-[55%] w-full">
+          <Image
+            src={Marvin}
+            alt="Marvin Splitt - A Freelance Full-Stack Product Developer with focus on the conception and development of lean MVP's"
+            className="rounded-md w-full h-auto object-contain"
+          />
+          <Image
+            src={Sparkle}
+            alt="Sparkle icon"
+            className="h-8 w-8 hidden lg:block absolute bottom-4 left-2"
+          />
+          <Image
+            src={Sparkle}
+            alt="Sparkle icon"
+            className="h-8 w-8 absolute hidden xl:block -bottom-12 left-10"
+          />
+          <Image
+            src={Sparkle}
+            alt="Sparkle icon"
+            className="h-8 w-8 hidden lg:block xl:hidden absolute bottom-12 -left-10"
+          />
+        </div>
         <div className="flex-1 flex gap-5 flex-col my-auto">
           <h2 className="font-semibold text-2xl md:text-4xl">
             Moin, <br className="hidden xl:block" />I am Marvin
