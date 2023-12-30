@@ -2,6 +2,7 @@ import { LogoSection } from "@/components/logo-section";
 import { HeroSection } from "@/components/hero-section";
 import { BenefitsSection } from "@/components/benefits-section";
 import { AboutSection } from "@/components/about-section";
+import { QuoteSection } from "@/components/quote-section";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <LogoSection />
       <BenefitsSection />
       <AboutSection />
+      <QuoteSection />
       {/* <div className="flex flex-row justify-center gap-6 mt-8 items-center">
         <Link href="https://www.linkedin.com/in/marvin-splitt/">
           <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
