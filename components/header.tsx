@@ -6,7 +6,7 @@ import Logo from "@/public/logos/msdev-logo.svg";
 export const Header: React.FC = () => {
   return (
     <header className="flex flex-row justify-between items-center container !py-0">
-      <div>
+      <Link href="/">
         <Image
           src={Logo}
           height={100}
@@ -15,9 +15,9 @@ export const Header: React.FC = () => {
           priority
         />
         <span className="sr-only">Marvin Splitt</span>
-      </div>
+      </Link>
       <Button asChild size="wide" className="rounded-3xl">
-        <Link href="mailto:hi@msdev.digital" className="font-semibold">
+        <Link href="mailto:moin@msdev.digital" className="font-semibold">
           moin@msdev.digital
         </Link>
       </Button>
