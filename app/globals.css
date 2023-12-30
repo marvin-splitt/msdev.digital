@@ -92,4 +92,7 @@
   .prose-custom {
     @apply prose prose-lg prose-accent prose-a:no-underline;
   }
+  .container {
+    @apply lg:px-24 md:px-20 px-12 py-10 md:py-14 lg:py-20;
+  }
 }
