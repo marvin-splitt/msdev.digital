@@ -7,7 +7,7 @@ export const HeroSection: React.FC = () => {
   return (
     <div className="container flex flex-col items-center">
       <div className="relative">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-20">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center">
           Realize your <br className="block xs:hidden" />
           product idea
           <br />
@@ -21,7 +21,7 @@ export const HeroSection: React.FC = () => {
           Fast, efficient and without unnecessary costs.
         </p>
         <Image
-          className="absolute h-6 w-6 md:h-9 md:w-9 top-20 xs:-right-10 md:top-16 -right-4 md:-right-14"
+          className="absolute h-6 w-6 md:h-9 md:w-9 xs:-right-10 -top-4 -right-4 md:-right-14"
           src={Arrow}
           alt="Arrow Icon"
         />

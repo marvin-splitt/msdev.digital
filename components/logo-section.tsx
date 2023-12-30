@@ -9,7 +9,7 @@ import Neverfinal from "@/public/logos/neverfinal.svg";
 
 export const LogoSection: React.FC = () => {
   return (
-    <div className="bg-primary h-[146px] w-full mt-24 flex items-center overflow-hidden">
+    <div className="bg-primary h-[146px] w-full flex items-center overflow-hidden">
       <div className="hidden lg:flex flex-row items-center gap-10 justify-center w-full mx-auto container">
         <Image
           src={Mutabor}

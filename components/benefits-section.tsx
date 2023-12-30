@@ -50,7 +50,7 @@ const Benefits: Benefit[] = [
 
 export const BenefitsSection: React.FC = () => {
   return (
-    <div className="container mt-16 text-center flex flex-col items-center">
+    <div className="container text-center flex flex-col items-center">
       <h2 className="md:text-4xl font-semibold text-2xl max-w-3xl">
         You don&apos;t just need a developer to validate your ideas.
       </h2>

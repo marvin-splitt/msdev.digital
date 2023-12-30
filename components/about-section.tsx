@@ -23,8 +23,8 @@ const perks = [
 
 export const AboutSection: React.FC = () => {
   return (
-    <>
-      <div className="flex flex-col lg:flex-row gap-14 container mt-20 md:mt-32 lg:mt-36">
+    <div className="container">
+      <div className="flex flex-col lg:flex-row gap-14 ">
         <div className="relative lg:w-[55%] w-full">
           <Image
             src={Marvin}
@@ -74,7 +74,7 @@ export const AboutSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row gap-3 flex-wrap container mt-6 xl:hidden">
+      <div className="flex flex-row gap-3 flex-wrap mt-6 xl:hidden">
         {perks.map((perk) => (
           <div
             key={perk.name}
@@ -85,6 +85,6 @@ export const AboutSection: React.FC = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };

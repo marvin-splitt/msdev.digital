@@ -5,7 +5,7 @@ import Logo from "@/public/logos/msdev-logo.svg";
 
 export const Header: React.FC = () => {
   return (
-    <header className="flex flex-row justify-between items-center container">
+    <header className="flex flex-row justify-between items-center container !py-0">
       <div>
         <Image
           src={Logo}
