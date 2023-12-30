@@ -15,7 +15,7 @@ export const HeroSection: React.FC = () => {
           <span className="text-accent whitespace-nowrap">user-centric</span>
           <br /> prototypes
         </h1>
-        <p className="max-w-3xl text-center lg:text-xl mt-6">
+        <p className="max-w-3xl text-center text-lg lg:text-2xl mt-6">
           Production-ready applications for start and scale-ups.{" "}
           <br className="hidden xs:block" />
           Fast, efficient and without unnecessary costs.
@@ -36,7 +36,7 @@ export const HeroSection: React.FC = () => {
           href="https://cal.com/msplitt/prototype-audit"
           className="font-semibold"
         >
-          Get a free Prototype Audit
+          Book Prototype Audit
         </Link>
       </Button>
       <p className="text-gray-700 text-sm mt-2">20min MVP Feedback</p>

@@ -50,7 +50,7 @@ export const LogoSection: React.FC = () => {
         />
       </div>
       <div
-        className="flex w-[400%] animate-scrolling-container sm:w-[100%] lg:hidden gap-12 px-8 items-center"
+        className="flex w-[400%] animate-scrolling-container sm:w-full lg:hidden gap-12 px-8 items-center"
         aria-hidden={true}
       >
         <Image
