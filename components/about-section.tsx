@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Marvin from "@/public/images/marvin.jpg";
+import Marvin from "@/public/images/marvin.png";
 import Sparkle from "@/public/icons/sparkle.svg";
 
 const perks = [
@@ -30,6 +30,8 @@ export const AboutSection: React.FC = () => {
             src={Marvin}
             alt="Marvin Splitt - A Freelance Full-Stack Product Developer with focus on the conception and development of lean MVP's"
             className="rounded-md w-full h-auto object-contain"
+            placeholder="blur"
+            sizes="(max-width: 1024px) 100vw, 50vw"
           />
           <Image
             src={Sparkle}
