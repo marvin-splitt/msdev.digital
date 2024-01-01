@@ -5,14 +5,10 @@ import Avatar from "@/public/avatars/kai-avatar.svg";
 export const QuoteSection: React.FC = () => {
   return (
     <div className="bg-accent-blue">
-      <div className="container bg-accent-blue">
-        <div className="max-w-6xl mx-auto relative">
-          <Image
-            src={Quote}
-            alt="Quote icon"
-            className="absolute -top-8 left-0 h-5 w-5"
-          />
-          <p className="font-aeonik text-xl md:text-2xl lg:text-3xl font-semibold">
+      <div className="container">
+        <div className="max-w-6xl mx-auto">
+          <Image src={Quote} alt="Quote icon" className="h-5 w-5" />
+          <p className="font-aeonik text-xl md:text-2xl lg:text-3xl font-semibold mt-5">
             Thanks to Marvin&apos;s expertise, we were not only able to create a
             modern web app with a CMS integration, but also gained the know-how
             to successfully implement future prototypes independently.
