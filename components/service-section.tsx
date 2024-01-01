@@ -14,12 +14,12 @@ export const ServiceSection: React.FC = () => {
       </p>
 
       <div className="grid grid-cols-2">
-        <div className="border-2 rounded-lg border-black p-8 bg-[#D2572D1A] flex flex-row gap-5">
+        <div className="border-2 rounded-lg border-black p-8 bg-[#D2572D1A] flex flex-row gap-5 items-center">
           <div>
-            <div className="flex flex-col gap-[10px]">
+            <div className="flex flex-col">
               <h4 className="uppercase text-xl">For Startups</h4>
-              <h3 className="font-semibold text-3xl">Validate ideas</h3>
-              <p>
+              <h3 className="font-semibold text-3xl mt-5">Validate ideas</h3>
+              <p className="mt-4">
                 Have you discovered a market opportunity? I&apos;ll help you
                 create the first prototypes - without no-code or low-code, but
                 with a solid technical foundation.
@@ -29,7 +29,11 @@ export const ServiceSection: React.FC = () => {
               Let&apos;s talk
             </Button>
           </div>
-          <Image src={LightBulb} alt="Light Bulb" />
+          <Image
+            src={LightBulb}
+            alt="Light Bulb"
+            className="h-52 w-auto object-contain"
+          />
         </div>
       </div>
     </div>
