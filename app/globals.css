@@ -27,6 +27,7 @@
 
     --accent: 15 82% 57%;
     --accent-foreground: 222.2 47.4% 11.2%;
+    --accent-blue: 196.364, 74%, 29%, 0.1;
 
     --destructive: 0 100% 50%;
     --destructive-foreground: 210 40% 98%;
@@ -45,6 +46,7 @@
 
     --accent: 15 82% 57%;
     --accent-foreground: 210 40% 98%;
+    --accent-blue: 196.364, 74%, 29%, 0.1;
 
     --popover: 224 71% 4%;
     --popover-foreground: 215 20.2% 65.1%;
@@ -93,6 +95,6 @@
     @apply prose prose-lg prose-accent prose-a:no-underline;
   }
   .container {
-    @apply lg:px-24 md:px-20 px-12 py-10 md:py-14 lg:py-20;
+    @apply lg:px-24 md:px-20 px-8 py-10 md:py-14 lg:py-20;
   }
 }
