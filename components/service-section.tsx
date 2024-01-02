@@ -2,19 +2,20 @@ import Image from "next/image";
 import { Button } from "./button";
 import LightBulb from "@/public/services/light-bulb.svg";
 import Phone from "@/public/services/phone.svg";
+import Coffee from "@/public/services/coffee.svg";
 
 export const ServiceSection: React.FC = () => {
   return (
     <div className="container flex flex-col items-center">
-      <h2 className="font-semibold text-4xl">
+      <h2 className="font-semibold text-4xl text-center max-w-3xl">
         Conception and development of lean MVP&apos;s
       </h2>
       <p className="max-w-3xl text-center text-xl mt-5">
         I support you where your challenges lie. Be it in the initial validation
         of your idea or in the further development of your product.
       </p>
-      <div className="grid grid-cols-2 mt-14">
-        <div className="flex flex-col gap-4">
+      <div className="grid grid-cols-5 mt-14 gap-5">
+        <div className="flex flex-col gap-4 col-span-3">
           <div className="border-2 rounded-lg border-black p-8 bg-[#D2572D1A] flex flex-row gap-5 items-center">
             <div>
               <div className="flex flex-col">
@@ -36,6 +37,7 @@ export const ServiceSection: React.FC = () => {
               className="h-52 w-auto object-contain"
             />
           </div>
+
           <div className="border-2 rounded-lg border-black p-8 bg-[#1363811A] flex flex-row gap-5 items-center">
             <div>
               <div className="flex flex-col">
@@ -59,6 +61,29 @@ export const ServiceSection: React.FC = () => {
               className="h-52 w-auto object-contain"
             />
           </div>
+        </div>
+        <div className="border-2 col-span-2 row-span-2 h-fit rounded-lg border-black p-8 flex flex-row gap-5">
+          <div>
+            <div className="flex flex-col">
+              <h3 className="font-semibold text-3xl">Drink a digital coffee</h3>
+              <p className="mt-4">
+                Would you like to find out more about how I work or are you
+                generally unsure whether my service is right for your product?
+                Then let&apos;s just have a digital coffee.
+              </p>
+            </div>
+            <Button
+              variant="outline"
+              className="mt-5 rounded-full text-lg font-medium"
+            >
+              Book a Call
+            </Button>
+          </div>
+          <Image
+            src={Coffee}
+            alt="Coffee"
+            className="h-20 w-auto object-contain"
+          />
         </div>
       </div>
     </div>
