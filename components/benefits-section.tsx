@@ -12,7 +12,7 @@ type Benefit = {
   image: StaticImageData;
 };
 
-const Benefits: Benefit[] = [
+const benefits: Benefit[] = [
   {
     title: "Development power",
     description: "Do you want to implement high-quality features quickly?",
@@ -59,7 +59,7 @@ export const BenefitsSection: React.FC = () => {
         to quickly and efficiently launch a fully functional prototype.
       </p>
       <div className="grid grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-8 sm:gap-24 mt-16 ">
-        {Benefits.map((benefit) => (
+        {benefits.map((benefit) => (
           <div key={benefit.title} className="flex flex-col items-center gap-2">
             <Image
               src={benefit.image}
