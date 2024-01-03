@@ -48,12 +48,12 @@ export const WorkflowSection: React.FC = () => {
   return (
     <div className="container flex flex-col items-center">
       <h2 className="font-semibold text-2xl md:text-4xl text-center max-w-3xl">
-        What a collaboration can look like
+        What a collaboration could look like
       </h2>
       <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
         Each project is unique, but a typical workflow could look like this...
       </p>
-      <div className="flex flex-col md:flex-row gap-5 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-y-8 gap-x-5 mt-10 w-full">
         {workflowSteps.map((step) => (
           <div key={step.title} className="flex flex-col">
             <Image
@@ -66,9 +66,7 @@ export const WorkflowSection: React.FC = () => {
               {step.title}
             </p>
 
-            <p className="max-w-xs md:max-w-md text-center md:text-left">
-              {step.description}
-            </p>
+            <p className="mt-2">{step.description}</p>
           </div>
         ))}
       </div>
