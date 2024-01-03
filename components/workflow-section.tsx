@@ -25,13 +25,13 @@ const workflowSteps: WorkflowStep[] = [
     image: TargetGroupIcon,
   },
   {
-    title: "Build roadmap",
+    title: "Build a roadmap",
     description:
       "We create a clear roadmap for your project, which serves as a transparent guide for structured implementation.",
     image: RoadmapIcon,
   },
   {
-    title: "Define MVP",
+    title: "Define MVP Specs",
     description:
       "Clearly defined requirements for your MVP enable a streamlined development process for a fast market launch.",
     image: MvpIcon,
