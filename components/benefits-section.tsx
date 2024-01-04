@@ -67,7 +67,7 @@ export const BenefitsSection: React.FC = () => {
               className="object-contain w-18 h-18"
             />
             <h3 className="font-semibold text-lg">{benefit.title}</h3>
-            <p className="text-sm md:text-base">{benefit.description}</p>
+            <p>{benefit.description}</p>
           </div>
         ))}
       </div>
