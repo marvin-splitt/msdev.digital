@@ -55,10 +55,10 @@ export const AboutSection: React.FC = () => {
           </h2>
           <p className="text-lg md:text-xl">
             A Freelance Full-Stack Product Developer with a focus on the
-            conception and development of lean MVP&apos;s.
+            discovery and development of lean prototype-driven products.
           </p>
           <p>
-            Since 5+ years I help start-ups and scale-ups with my technical
+            Since 5+ years I help startups and scale-ups with my technical
             expertise to quickly validate their ideas through modern approaches,
             to scale even better while at the same time acting in a
             cost-efficient manner.

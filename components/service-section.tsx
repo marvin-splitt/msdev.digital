@@ -3,12 +3,14 @@ import { Button } from "./button";
 import LightBulb from "@/public/services/light-bulb.svg";
 import Phone from "@/public/services/phone.svg";
 import Coffee from "@/public/services/coffee.svg";
+import Link from "next/link";
+import { meetingLink } from "@/config/global";
 
 export const ServiceSection: React.FC = () => {
   return (
     <div className="container flex flex-col items-center">
       <h2 className="font-semibold text-2xl md:text-4xl text-center max-w-3xl">
-        Conception and development of lean MVP&apos;s
+        Conception and development of lean products
       </h2>
       <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
         I support you where your challenges lie. Be it in the initial validation
@@ -23,12 +25,16 @@ export const ServiceSection: React.FC = () => {
                 <h3 className="font-semibold text-3xl mt-5">Validate ideas</h3>
                 <p className="mt-4">
                   Have you discovered a market opportunity? I&apos;ll help you
-                  create the first prototypes - without no-code or low-code, but
-                  with a solid technical foundation.
+                  create the first prototype, building a solid technical
+                  foundation right away.
+                  <br />
+                  In case you already have a core team of developers, I&apos;ll
+                  help you get your product off the ground and increase your
+                  development velocity with your product vision as a north star.
                 </p>
               </div>
-              <Button className="mt-5 rounded-full text-lg font-medium">
-                Let&apos;s talk
+              <Button asChild className="mt-5 rounded-full text-lg font-medium">
+                <Link href={meetingLink}>Let&apos;s talk</Link>
               </Button>
             </div>
             <Image
@@ -46,13 +52,14 @@ export const ServiceSection: React.FC = () => {
                   Scale your product
                 </h3>
                 <p className="mt-4">
-                  Do you want your infrastructure to scale with growing user
-                  numbers? I help to scale products quickly from prototype to
-                  mature product through targeted feature expansion.
+                  Do you want your application to perform well with a growing
+                  user base? I help you scale your product quickly from
+                  prototype to mature product through product discovery and
+                  shipping the features users actually care about.
                 </p>
               </div>
-              <Button className="mt-5 rounded-full text-lg font-medium">
-                Let&apos;s talk
+              <Button asChild className="mt-5 rounded-full text-lg font-medium">
+                <Link href={meetingLink}>Let&apos;s talk</Link>
               </Button>
             </div>
             <Image
@@ -74,9 +81,10 @@ export const ServiceSection: React.FC = () => {
             </div>
             <Button
               variant="outline"
+              asChild
               className="mt-5 rounded-full text-lg font-medium"
             >
-              Book a Call
+              <Link href={meetingLink}>Book a Call</Link>
             </Button>
           </div>
           <Image

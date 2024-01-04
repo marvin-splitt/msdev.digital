@@ -52,11 +52,12 @@ export const BenefitsSection: React.FC = () => {
   return (
     <div className="container text-center flex flex-col items-center">
       <h2 className="md:text-4xl font-semibold text-2xl max-w-3xl">
-        You don&apos;t just need a developer to validate your ideas.
+        You don&apos;t just need a developer to build new features
       </h2>
       <p className="mt-5 md:text-xl text-lg max-w-3xl">
-        You need a sparring partner who will support you strategically in order
-        to quickly and efficiently launch a fully functional prototype.
+        You need a product-minded sparring partner who can turn your product
+        vision into production-ready features - no matter if you want to quickly
+        validate an idea or build new features on top of your core product.
       </p>
       <div className="grid grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-8 sm:gap-24 mt-16 ">
         {benefits.map((benefit) => (

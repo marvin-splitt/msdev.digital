@@ -51,7 +51,7 @@ export const WorkflowSection: React.FC = () => {
         What a collaboration could look like
       </h2>
       <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
-        Each project is unique, however a typical workflow could look like
+        Each project is unique, however a possible workflow could look like
         this...
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-y-8 gap-x-5 mt-10 w-full">
@@ -62,11 +62,9 @@ export const WorkflowSection: React.FC = () => {
               alt={step.title}
               className="h-16 w-fit object-contain"
             />
-
             <p className="font-semibold text-lg md:text-xl mt-3">
               {step.title}
             </p>
-
             <p className="mt-2">{step.description}</p>
           </div>
         ))}
