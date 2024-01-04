@@ -20,6 +20,7 @@ export default function Home() {
       <WorkflowSection />
       <UspSection />
       <CtaSection />
+      <LogoSection />
       {/* <div className="flex flex-row justify-center gap-6 mt-8 items-center">
         <Link href="https://www.linkedin.com/in/marvin-splitt/">
           <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
