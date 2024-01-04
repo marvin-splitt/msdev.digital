@@ -75,8 +75,8 @@ export const ServiceSection: React.FC = () => {
               <h3 className="font-semibold text-3xl">Drink a digital coffee</h3>
               <p className="mt-4">
                 Would you like to find out more about how I work or are you
-                generally unsure whether my service is right for your product?
-                Then let&apos;s just have a digital coffee.
+                generally unsure whether my service is the right fit for your
+                product? Then let&apos;s just have a digital coffee.
               </p>
             </div>
             <Button
