@@ -29,7 +29,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="min-h-screen w-full py-8">
+      <body className="min-h-screen w-full">
         <Header />
         <main>{children}</main>
         <Footer />
