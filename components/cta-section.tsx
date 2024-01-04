@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SparklesIcon from "../public/icons/sparkles.svg";
 import Link from "next/link";
+import { meetingLink } from "@/config/global";
 
 export const CtaSection: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ export const CtaSection: React.FC = () => {
         </p>
         <Link
           target="_blank"
-          href="https://cal.com/msplitt/prototype-audit"
+          href={meetingLink}
           className="py-5 px-28 border rounded-3xl border-white mt-8 hover:bg-white hover:text-black"
         >
           Book a call

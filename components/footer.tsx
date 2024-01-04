@@ -1,26 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import LogoLight from "@/public/logos/msdev-light.svg";
-
-type LinkEntry = {
-  name: string;
-  href: string;
-};
-
-const navigation: LinkEntry[] = [{ name: "Home", href: "/" }];
-
-const socials: LinkEntry[] = [
-  { name: "Hit me up", href: "mailto:hey@msdev.digital" },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/marvin-splitt/" },
-  { name: "GitHub", href: "https://github.com/marvin-splitt" },
-  { name: "X", href: "https://x.com/marvinsplitt" },
-  { name: "Medium", href: "https://medium.com/@marvin-splitt" },
-];
-
-const legals: LinkEntry[] = [
-  { name: "Privacy", href: "/privacy" },
-  { name: "Imprint", href: "/imprint" },
-];
+import { legals, navigation, socials } from "@/config/global";
 
 const footerLinks = [
   {
