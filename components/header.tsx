@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "./button";
 import Link from "next/link";
-import Logo from "@/public/logos/msdev-logo.svg";
+import Logo from "@/public/logos/msdev.svg";
 
 export const Header: React.FC = () => {
   return (
