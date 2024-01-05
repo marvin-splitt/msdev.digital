@@ -45,7 +45,7 @@ export const Footer = () => {
                 <nav className="flex flex-col gap-3">
                   {links.map(({ name, href }) => {
                     return (
-                      <Link key={href} href={href}>
+                      <Link key={href} href={href} target="_blank">
                         {name}
                       </Link>
                     );

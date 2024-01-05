@@ -17,13 +17,13 @@ export const HeroSection: React.FC = () => {
           <br /> prototypes
         </h1>
         <p className="max-w-3xl text-center text-lg lg:text-2xl mt-10">
-          Transforming the product vision into production-ready features for
+          Transforming product vision into production-ready features for
           startups and scale-ups.
           {/* <br className="hidden xs:block sm:hidden" /> */}
           {/* Fast, efficient and without unnecessary costs. */}
         </p>
         <Image
-          className="absolute h-6 w-6 md:h-9 md:w-9 top-20 xs:-right-10 md:top-16 -right-4 md:-right-14"
+          className="absolute h-7 w-7 md:h-9 md:w-9 top-5 sm:top-20 right-0 md:top-16 lg:-right-14"
           src={Arrow}
           alt="Arrow Icon"
         />
