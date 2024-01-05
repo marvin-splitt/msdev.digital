@@ -7,6 +7,7 @@ import { ServiceSection } from "@/components/service-section";
 import { WorkflowSection } from "@/components/workflow-section";
 import { UspSection } from "@/components/usp-section";
 import { CtaSection } from "@/components/cta-section";
+import { FaqSection } from "../components/faq-section";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <ServiceSection />
       <WorkflowSection />
       <UspSection />
+      <FaqSection />
       <CtaSection />
       <LogoSection />
       {/* <div className="flex flex-row justify-center gap-6 mt-8 items-center">
