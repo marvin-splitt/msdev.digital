@@ -17,8 +17,9 @@ export const HeroSection: React.FC = () => {
           <br /> prototypes
         </h1>
         <p className="max-w-3xl text-center text-lg lg:text-2xl mt-10">
-          Transforming product vision into production-ready features for
-          startups and scale-ups.
+          Helping startups and scale-ups transform product vision into
+          production-ready features.
+          {/* that enable products that customers love. */}
           {/* <br className="hidden xs:block sm:hidden" /> */}
           {/* Fast, efficient and without unnecessary costs. */}
         </p>
