@@ -4,7 +4,7 @@ import Sparkle from "@/public/icons/sparkle.svg";
 
 const perks = [
   {
-    name: "Barista Lover",
+    name: "Home Barista",
     emoji: "☕️",
   },
   {
@@ -51,17 +51,18 @@ export const AboutSection: React.FC = () => {
         </div>
         <div className="flex-1 flex gap-5 flex-col my-auto">
           <h2 className="font-semibold text-2xl md:text-4xl">
-            Moin, <br className="hidden xl:block" />I am Marvin
+            Moin, <br className="hidden lg:block" />
+            my name is Marvin
           </h2>
           <p className="text-lg md:text-xl">
-            A Freelance Full-Stack Product Developer with a focus on the
-            discovery and development of lean prototype-driven products.
+            A Freelance Full-Stack Product Developer with a passion for the
+            development of lean prototype-driven products.
           </p>
           <p>
             Since 5+ years I help startups and scale-ups with my technical
-            expertise to quickly validate their ideas through modern approaches,
-            to scale even better while at the same time acting in a
-            cost-efficient manner.
+            expertise. May it be in quickly validating their ideas through
+            modern approaches or in increasing their development speed and scale
+            even better while at the same time act in a cost-efficient manner.
           </p>
           <div className="flex-row gap-3 flex-wrap hidden xl:flex">
             {perks.map((perk) => (

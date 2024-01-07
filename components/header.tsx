@@ -11,14 +11,17 @@ export const Header: React.FC = () => {
           src={Logo}
           height={100}
           width={100}
-          alt="Logo msdev.digital - Marvin Splitt"
+          alt="Logo msdev.digital - Marvin Splitt Product Developer"
           priority
         />
         <span className="sr-only">Marvin Splitt</span>
       </Link>
       <Button asChild size="wide" className="rounded-3xl">
-        <Link href="mailto:moin@msdev.digital" className="font-semibold">
-          moin@msdev.digital
+        <Link
+          href="mailto:hi@msdev.digital"
+          className="font-semibold tracking-wide"
+        >
+          hi@msdev.digital
         </Link>
       </Button>
     </header>

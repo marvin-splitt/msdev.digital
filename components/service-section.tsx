@@ -5,17 +5,15 @@ import Phone from "@/public/services/phone.svg";
 import Coffee from "@/public/services/coffee.svg";
 import Link from "next/link";
 import { meetingLink } from "@/config/global";
+import { SectionWrapper } from "./section-wrapper";
 
 export const ServiceSection: React.FC = () => {
   return (
-    <div className="container flex flex-col items-center">
-      <h2 className="font-semibold text-2xl md:text-4xl text-center max-w-3xl">
-        Conception and development of lean products
-      </h2>
-      <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
-        I support you where your challenges lie. Be it in the initial validation
-        of your idea or in the further development of your product.
-      </p>
+    <SectionWrapper
+      title="Conception and development of lean products"
+      description="I support you where your challenges lie. Be it in the initial validation
+    of your idea or in the further development of your product."
+    >
       <div className="flex flex-col md:grid md:grid-cols-5 mt-14 gap-5">
         <div className="flex flex-col gap-4 col-span-3">
           <div className="border-2 rounded-lg border-black p-8 bg-[#D2572D1A] flex flex-row gap-5 items-center">
@@ -94,6 +92,6 @@ export const ServiceSection: React.FC = () => {
           />
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

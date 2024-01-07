@@ -5,6 +5,7 @@ import ShortCyclesIcon from "@/public/benefits/short-cycles.svg";
 import SparringPartnerIcon from "@/public/benefits/sparring-partner.svg";
 import UxKnowledgeIcon from "@/public/benefits/ux-knowledge.svg";
 import Image, { StaticImageData } from "next/image";
+import { SectionWrapper } from "./section-wrapper";
 
 type Benefit = {
   title: string;
@@ -50,15 +51,12 @@ const benefits: Benefit[] = [
 
 export const BenefitsSection: React.FC = () => {
   return (
-    <div className="container text-center flex flex-col items-center">
-      <h2 className="md:text-4xl font-semibold text-2xl max-w-3xl">
-        You don&apos;t just need a developer to build new features
-      </h2>
-      <p className="mt-5 md:text-xl text-lg max-w-3xl">
-        You need a product-minded sparring partner who can turn your product
-        vision into production-ready features - no matter if you want to quickly
-        validate an idea or build new features on top of your core product.
-      </p>
+    <SectionWrapper
+      title="You don't just need a developer to build new features"
+      description="You need a product-minded sparring partner - no matter if you want to quickly
+    validate an idea or build new features on top of your core product."
+      // who can turn your product vision into production-ready features
+    >
       <div className="grid grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-8 sm:gap-24 mt-16 ">
         {benefits.map((benefit) => (
           <div key={benefit.title} className="flex flex-col items-center gap-2">
@@ -72,6 +70,6 @@ export const BenefitsSection: React.FC = () => {
           </div>
         ))}
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "./accordion";
+import { SectionWrapper } from "./section-wrapper";
 
 const faqEntries = [
   {
@@ -41,9 +42,8 @@ const faqEntries = [
 
 export const FaqSection: React.FC = () => {
   return (
-    <div className="container">
-      <h2 className="text-2xl md:text-4xl font-semibold text-center">FAQ</h2>
-      <Accordion type="single" collapsible className="mt-10">
+    <SectionWrapper title="FAQ">
+      <Accordion type="single" collapsible className="mt-10 w-full">
         {faqEntries.map(({ question, answer }, index) => {
           return (
             <AccordionItem value={`item-${index}`} key={`item-${index}`}>
@@ -55,6 +55,6 @@ export const FaqSection: React.FC = () => {
           );
         })}
       </Accordion>
-    </div>
+    </SectionWrapper>
   );
 };

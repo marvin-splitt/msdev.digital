@@ -4,6 +4,7 @@ import TargetGroupIcon from "@/public/workflow/target-group.svg";
 import RoadmapIcon from "@/public/workflow/roadmap.svg";
 import MvpIcon from "@/public/workflow/mvp.svg";
 import ImplementationIcon from "@/public/workflow/implementation.svg";
+import { SectionWrapper } from "./section-wrapper";
 
 type WorkflowStep = {
   title: string;
@@ -46,14 +47,11 @@ const workflowSteps: WorkflowStep[] = [
 
 export const WorkflowSection: React.FC = () => {
   return (
-    <div className="container flex flex-col items-center">
-      <h2 className="font-semibold text-2xl md:text-4xl text-center max-w-3xl">
-        What a collaboration could look like
-      </h2>
-      <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
-        Each project is unique, however a possible workflow could look like
-        this...
-      </p>
+    <SectionWrapper
+      title="What a collaboration can look like"
+      description="Each project is unique, however a possible workflow could look like
+    this..."
+    >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-y-8 gap-x-5 mt-10 w-full">
         {workflowSteps.map((step) => (
           <div key={step.title} className="flex flex-col">
@@ -69,6 +67,6 @@ export const WorkflowSection: React.FC = () => {
           </div>
         ))}
       </div>
-    </div>
+    </SectionWrapper>
   );
 };

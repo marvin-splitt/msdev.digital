@@ -1,18 +1,16 @@
 import Image from "next/image";
 import Quote from "@/public/icons/quote-orange.svg";
 import Avatar from "@/public/avatars/simon-avatar.svg";
+import { SectionWrapper } from "./section-wrapper";
 
 export const UspSection: React.FC = () => {
   return (
     <div className="bg-accent-blue">
-      <div className="container flex flex-col items-center">
-        <h2 className="font-semibold text-2xl md:text-4xl text-center max-w-3xl">
-          In any case, you will receive...
-        </h2>
-        <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
-          Swift adjustments without bureaucratic burden. 100% commitment to your
-          idea.
-        </p>
+      <SectionWrapper
+        title="In any case, you will receive..."
+        description="Swift adjustments without bureaucratic burden. 100% commitment to your
+          idea."
+      >
         <div className="grid md:grid-cols-2 mt-14 gap-10">
           <div className="bg-white rounded-xl p-8">
             <Image
@@ -72,7 +70,7 @@ export const UspSection: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </SectionWrapper>
     </div>
   );
 };
