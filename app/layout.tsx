@@ -23,6 +23,16 @@ export const metadata: Metadata = {
     "Startups",
     "Scale-ups",
   ],
+  openGraph: {
+    title: "Marvin Splitt - Freelance Product Developer",
+    description:
+      "Realize your product idea through user-centric prototype development. Production-ready applications for start and scale-ups. Fast, efficient and without unnecessary costs.",
+    url: "https://msdev.digital",
+    type: "profile",
+    siteName: "Marvin Splitt - Freelance Product Developer",
+    firstName: "Marvin",
+    lastName: "Splitt",
+  },
 };
 
 export default function RootLayout({
