@@ -8,11 +8,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    (process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000") || "https://msdev.digital"
-  ),
+  metadataBase: new URL("https://msdev.digital"),
   title: "Marvin Splitt - Freelance Product Developer",
   description:
     "Realize your product idea through user-centric prototype development. Production-ready applications for start and scale-ups. Fast, efficient and without unnecessary costs.",
