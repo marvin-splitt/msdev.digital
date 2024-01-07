@@ -51,7 +51,7 @@ export const AboutSection: React.FC = () => {
         </div>
         <div className="flex-1 flex gap-5 flex-col my-auto">
           <h2 className="font-semibold text-2xl md:text-4xl">
-            Moin, <br className="hidden lg:block" />
+            Nice to meet you, <br className="hidden lg:block" />
             my name is Marvin
           </h2>
           <p className="text-lg md:text-xl">

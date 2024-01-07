@@ -59,7 +59,10 @@ export const BenefitsSection: React.FC = () => {
     >
       <div className="grid grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-8 sm:gap-24 mt-16 ">
         {benefits.map((benefit) => (
-          <div key={benefit.title} className="flex flex-col items-center gap-2">
+          <div
+            key={benefit.title}
+            className="flex flex-col items-center gap-2 text-center"
+          >
             <Image
               src={benefit.image}
               alt={benefit.title}
