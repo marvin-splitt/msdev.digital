@@ -4,6 +4,8 @@ import "./globals.css";
 import { aeonik } from "@/font/fonts";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Marvin Splitt - Product Developer",
@@ -28,7 +30,9 @@ export default function RootLayout({
       </head>
 
       <body className="min-h-screen w-full">
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
         <SpeedInsights />
       </body>
     </html>
