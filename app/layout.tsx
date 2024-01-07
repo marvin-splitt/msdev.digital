@@ -8,9 +8,21 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Marvin Splitt - Product Developer",
+  title: "Marvin Splitt - Freelance Product Developer",
   description:
     "Realize your product idea through user-centric prototype development. Production-ready applications for start and scale-ups. Fast, efficient and without unnecessary costs.",
+  keywords: [
+    "Product Development",
+    "Product Developer",
+    "Web Development",
+    "Freelancer",
+    "Full-Stack",
+    "Lean",
+    "MVP",
+    "Prototyping",
+    "Startups",
+    "Scale-ups",
+  ],
 };
 
 export default function RootLayout({
