@@ -4,7 +4,7 @@ import LightBulb from "@/public/services/light-bulb.svg";
 import Phone from "@/public/services/phone.svg";
 import Coffee from "@/public/services/coffee.svg";
 import Link from "next/link";
-import { meetingLink } from "@/config/global";
+import { coffeeLink, meetingLink } from "@/config/global";
 import { SectionWrapper } from "./section-wrapper";
 
 export const ServiceSection: React.FC = () => {
@@ -82,7 +82,7 @@ export const ServiceSection: React.FC = () => {
               asChild
               className="mt-5 rounded-full text-lg font-medium"
             >
-              <Link href={meetingLink}>Book a Call</Link>
+              <Link href={coffeeLink}>Book a Call</Link>
             </Button>
           </div>
           <Image

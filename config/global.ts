@@ -1,4 +1,5 @@
 export const meetingLink = "https://app.cal.com/msplitt/product-audit";
+export const coffeeLink = "https://app.cal.com/msplitt/coffee-chat";
 
 type LinkEntry = {
   name: string;
