@@ -15,8 +15,13 @@ const sampleProject: ProjectExcerpt = {
 
 export const ProjectSection: React.FC = () => {
   return (
-    <SectionWrapper className="!pt-0">
-      <ProjectCard project={sampleProject} />
+    <SectionWrapper title="Recent projects">
+      <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
+        <ProjectCard project={sampleProject} />
+        <ProjectCard project={sampleProject} />
+        <ProjectCard project={sampleProject} />
+        <ProjectCard project={sampleProject} />
+      </div>
     </SectionWrapper>
   );
 };

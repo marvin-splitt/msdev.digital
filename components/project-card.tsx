@@ -13,15 +13,18 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       <p>{timeRange}</p>
       <h5 className="font-semibold text-2xl mt-2.5">{title}</h5>
       <p className="text-lg mt-2.5">{description}</p>
-      <div className="mt-4 flex flex-row gap-2">
+      <div className="mt-4 flex flex-row gap-2 flex-wrap">
         {tags.map((tag) => (
           <span
             key={tag.name}
-            className={cn("px-3.5 py-1 rounded-full font-semibold", {
-              "bg-[#1363811A] text-accent-blue": tag.color === "blue",
-              "bg-[#D2572D1A] text-accent": tag.color === "orange",
-              "bg-[#EEEEEE]": tag.color === "default",
-            })}
+            className={cn(
+              "px-3.5 py-1 rounded-full font-semibold whitespace-nowrap",
+              {
+                "bg-[#1363811A] text-accent-blue": tag.color === "blue",
+                "bg-[#D2572D1A] text-accent": tag.color === "orange",
+                "bg-[#EEEEEE]": tag.color === "default",
+              }
+            )}
           >
             {tag.name}
           </span>
