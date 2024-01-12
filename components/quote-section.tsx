@@ -4,7 +4,7 @@ import Avatar from "@/public/avatars/kai-avatar.svg";
 
 export const QuoteSection: React.FC = () => {
   return (
-    <div className="bg-accent-blue">
+    <div className="bg-[#1363811A]">
       <div className="container">
         <div className="max-w-6xl mx-auto">
           <Image src={Quote} alt="Quote icon" className="h-5 w-5" />
