@@ -1,4 +1,5 @@
 import { ProjectExcerpt } from "@/config/types";
+import { cn } from "@/lib/utils";
 
 type ProjectCardProps = {
   project: ProjectExcerpt;
@@ -16,13 +17,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         {tags.map((tag) => (
           <span
             key={tag.name}
-            className={`px-3.5 py-1 rounded-full font-semibold ${
-              tag.color === "default"
-                ? "bg-[#EEEEEE]"
-                : tag.color === "orange"
-                ? "bg-[#D2572D1A] text-accent"
-                : "bg-[#1363811A] text-accent-blue"
-            }`}
+            className={cn("px-3.5 py-1 rounded-full font-semibold", {
+              "bg-[#1363811A] text-accent-blue": tag.color === "blue",
+              "bg-[#D2572D1A] text-accent": tag.color === "orange",
+              "bg-[#EEEEEE]": tag.color === "default",
+            })}
           >
             {tag.name}
           </span>
