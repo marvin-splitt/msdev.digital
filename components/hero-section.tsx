@@ -35,10 +35,12 @@ export const HeroSection: React.FC = () => {
         className="rounded-3xl mt-14 font-semibold text-base"
       >
         <Link target="_blank" href={meetingLink} className="font-semibold">
-          Book Product Audit
+          Book product audit
         </Link>
       </Button>
-      <p className="text-gray-700 text-sm mt-2">Free 20min Product Feedback</p>
+      <p className="text-gray-700 text-sm mt-2">
+        Free 20 min. Product Feedback
+      </p>
     </div>
   );
 };

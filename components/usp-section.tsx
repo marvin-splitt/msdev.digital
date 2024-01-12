@@ -19,10 +19,10 @@ export const UspSection: React.FC = () => {
               className="h-5 w-5 fill-accent text-accent"
             />
             <p className="font-aeonik text-xl md:text-2xl font-semibold mt-5">
-              Marvin was a great help for our young company as we were trying to
+              Marvin was a great help to our young company as we were trying to
               ramp up production and develop our first proof-of-concept type
               application. He stands for dev capabilities made in Germany:
-              punctual, honest and reliable.
+              punctual, honest, and reliable.
             </p>
             <div className="flex flex-row items-center gap-2 mt-4">
               <div className="w-12 h-12 flex items-center rounded-full">
@@ -52,7 +52,7 @@ export const UspSection: React.FC = () => {
             </div>
             <div>
               <p className="font-semibold text-lg md:text-xl">
-                Full focus on your idea
+                Complete focus on your idea
               </p>
               <p className="mt-2">
                 No individual projects but 100% commitment to your idea and your

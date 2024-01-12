@@ -9,10 +9,11 @@ export const CtaSection: React.FC = () => {
       <div className="container flex flex-col items-center">
         <Image src={SparklesIcon} alt="Sparkles" className="h-16 w-auto" />
         <h2 className="font-semibold text-3xl md:text-5xl text-center max-w-3xl mt-5">
-          Let&apos;s challenge your product.
+          Let&apos;s challenge your product
         </h2>
         <p className="max-w-3xl text-center text-lg md:text-xl mt-5">
-          Or just want to have a nice chat?
+          Schedule a free call in which we will tackle your product challenges
+          and find out if a further collaboration makes sense.
         </p>
         <Link
           target="_blank"

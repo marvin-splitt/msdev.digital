@@ -16,7 +16,7 @@ const workflowSteps: WorkflowStep[] = [
   {
     title: "Analysis",
     description:
-      "Together we identify opportunities and pain points for your product in line with your vision and the market.",
+      "Together, we identify opportunities and pain points for your product in line with your vision and the market.",
     image: AnalysisIcon,
   },
   {
@@ -49,7 +49,7 @@ export const WorkflowSection: React.FC = () => {
   return (
     <SectionWrapper
       title="What a collaboration can look like"
-      description="Each project is unique, however a possible workflow could look like
+      description="Each project is unique. However, a possible workflow could look like
     this..."
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-y-8 gap-x-5 mt-10 w-full">

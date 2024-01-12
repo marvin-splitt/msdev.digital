@@ -59,10 +59,10 @@ export const AboutSection: React.FC = () => {
             development of lean prototype-driven products.
           </p>
           <p>
-            Since 5+ years I help startups and scale-ups with my technical
+            For 5+ years, I have helped startups and scale-ups with my technical
             expertise. May it be in quickly validating their ideas through
-            modern approaches or in increasing their development speed and scale
-            even better while at the same time act in a cost-efficient manner.
+            modern approaches or increasing their development speed and scale
+            even better while acting in a cost-efficient manner.
           </p>
           <div className="flex-row gap-3 flex-wrap hidden xl:flex">
             {perks.map((perk) => (

@@ -11,8 +11,7 @@ export const ServiceSection: React.FC = () => {
   return (
     <SectionWrapper
       title="Conception and development of lean products"
-      description="I support you where your challenges lie. Be it in the initial validation
-    of your idea or in the further development of your product."
+      description="I support you where your challenges lie. Be it in the initial validation of your idea or in further product development."
     >
       <div className="flex flex-col md:grid md:grid-cols-5 mt-14 gap-5">
         <div className="flex flex-col gap-4 col-span-3">
@@ -23,11 +22,11 @@ export const ServiceSection: React.FC = () => {
                 <h3 className="font-semibold text-3xl mt-5">Validate ideas</h3>
                 <p className="mt-4">
                   Have you discovered a market opportunity? I&apos;ll help you
-                  create the first prototype, building a solid technical
-                  foundation right away.
+                  create the first prototype, immediately building a solid
+                  technical foundation.
                   <br />
-                  In case you already have a core team of developers, I&apos;ll
-                  help you get your product off the ground and increase your
+                  If you already have a core team of developers, I&apos;ll help
+                  you get your product off the ground and increase your
                   development velocity with your product vision as a north star.
                 </p>
               </div>
@@ -82,7 +81,7 @@ export const ServiceSection: React.FC = () => {
               asChild
               className="mt-5 rounded-full text-lg font-medium"
             >
-              <Link href={coffeeLink}>Book a Call</Link>
+              <Link href={coffeeLink}>Book a call</Link>
             </Button>
           </div>
           <Image

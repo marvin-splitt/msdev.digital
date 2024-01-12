@@ -28,7 +28,7 @@ const benefits: Benefit[] = [
   {
     title: "Product vision",
     description:
-      "Do you want to align technical decisions with strategic goals and develop features that users really love?",
+      "Do you want to align technical decisions with strategic goals and develop features users love?",
     image: ProductVisionIcon,
   },
   {
@@ -39,7 +39,7 @@ const benefits: Benefit[] = [
   {
     title: "No agency overhead",
     description:
-      "Do you want efficient use of resources for features that are actually worth it? ",
+      "Do you want efficient use of resources for features that move the needle?",
     image: AgencyIcon,
   },
   {

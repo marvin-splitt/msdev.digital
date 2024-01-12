@@ -10,7 +10,7 @@ export const QuoteSection: React.FC = () => {
           <Image src={Quote} alt="Quote icon" className="h-5 w-5" />
           <p className="font-aeonik text-xl md:text-2xl lg:text-3xl font-semibold mt-5">
             Thanks to Marvin&apos;s expertise, we were not only able to create a
-            modern web app with a CMS integration, but also gained the know-how
+            modern web app with a CMS integration but also gained the know-how
             to successfully implement future prototypes independently.
           </p>
           <div className="flex flex-row items-center gap-2 mt-4">
