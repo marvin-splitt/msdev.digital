@@ -43,14 +43,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${aeonik.variable}`}>
-      <head>
-        <Script
-          strategy="afterInteractive"
-          defer
-          data-domain="msdev.digital"
-          src="https://plausible.io/js/script.js"
-        />
-      </head>
+      <Script
+        strategy="afterInteractive"
+        defer
+        data-domain="msdev.digital"
+        src="https://plausible.io/js/script.js"
+      />
 
       <body className="min-h-screen w-full">
         <Header />
