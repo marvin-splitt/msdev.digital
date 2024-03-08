@@ -13,9 +13,9 @@ const faqEntries = [
       "Absolutely! I also work with established companies and agencies. If you have a project in mind, feel free to contact me.",
   },
   {
-    question: "What is a product audit?",
+    question: "What is a product review?",
     answer:
-      "A product audit is a 20-minute call where I introduce myself and discuss your product (idea). I will give you feedback on how you can improve your product and what the next steps could be, or we can tackle a specific problem you have. Whatever helps you the most.",
+      "A product review is a 20-minute call where I introduce myself and discuss your product (idea). I will give you feedback on how you can improve your product and what the next steps could be, or we can tackle a specific problem you have. Whatever helps you the most.",
   },
   {
     question: "What is a product prototype?",
