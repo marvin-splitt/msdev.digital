@@ -9,12 +9,12 @@ import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://msdev.digital"),
-  title: "Marvin Splitt - Freelance Product Developer",
+  title: "Marvin Splitt - Freelance Product Engineer",
   description:
     "Realize your product idea through user-centric prototype development. Production-ready applications for start and scale-ups. Fast, efficient and without unnecessary costs.",
   keywords: [
-    "Product Development",
-    "Product Developer",
+    "Product Engineering",
+    "Product Engineer",
     "Web Development",
     "Freelancer",
     "Full-Stack",
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     "Scale-ups",
   ],
   openGraph: {
-    title: "Marvin Splitt - Freelance Product Developer",
+    title: "Marvin Splitt - Freelance Product Engineer",
     description:
       "Realize your product idea through user-centric prototype development. Production-ready applications for start and scale-ups. Fast, efficient and without unnecessary costs.",
     url: "https://msdev.digital",
     type: "profile",
-    siteName: "Marvin Splitt - Freelance Product Developer",
+    siteName: "Marvin Splitt - Freelance Product Engineer",
     firstName: "Marvin",
     lastName: "Splitt",
   },
