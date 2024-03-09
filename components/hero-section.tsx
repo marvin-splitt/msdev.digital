@@ -3,8 +3,8 @@ import { Button } from "./button";
 import Link from "next/link";
 import Arrow from "@/public/icons/arrow.svg";
 import { meetingLink } from "@/config/global";
-import HeroProfile from "@/public/hero/hero-profile.svg";
-import HeroAvatarBadges from "@/public/hero/hero-avatar-badges.svg";
+import HeroProfile from "@/public/hero/hero-profile.png";
+import HeroAvatarBadges from "@/public/hero/hero-avatar-badges.png";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -43,6 +43,7 @@ export const HeroSection: React.FC = () => {
         <Image
           src={HeroAvatarBadges}
           alt="An avatar list of some nice people I worked with. Are you ready to join them?"
+          className="h-8 w-auto"
           priority
         />
         <p>kick things off...</p>
