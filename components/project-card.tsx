@@ -9,7 +9,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   project: { title, description, timeRange, tags, ...rest },
 }) => {
   return (
-    <div {...rest} className="p-4 border border-black rounded-xl">
+    <div
+      {...rest}
+      className="p-4 border border-black rounded-xl hover:rotate-1 transition-transform"
+    >
       <p className="text-accent text-sm">{timeRange}</p>
       <h5 className="font-semibold text-2xl mt-2.5">{title}</h5>
       <p className="mt-2.5">{description}</p>
