@@ -4,10 +4,11 @@ import Link from "next/link";
 import Arrow from "@/public/icons/arrow.svg";
 import { meetingLink } from "@/config/global";
 import HeroProfile from "@/public/hero/hero-profile.svg";
+import HeroAvatarBadges from "@/public/hero/hero-avatar-badges.svg";
 
 export const HeroSection: React.FC = () => {
   return (
-    <div className="container flex flex-col items-center">
+    <section id="hero" className="container flex flex-col items-center">
       <div className="relative">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-center mt-0 md:mt-20 mx-auto">
           Realize your <br className="block xs:hidden" />
@@ -33,10 +34,19 @@ export const HeroSection: React.FC = () => {
         <Image
           src={HeroProfile}
           alt="Marvin Splitt drinking coffee and smiling."
-          className=" invisible lg:visible h-48 w-auto absolute -left-52 -top-5"
+          className="invisible lg:visible h-48 w-auto absolute -left-52 -top-5"
           priority
         />
       </p>
+      <div className="flex flex-row gap-2 items-center font-aeonik text-[#515151] text-sm mt-6">
+        <p>You and</p>
+        <Image
+          src={HeroAvatarBadges}
+          alt="An avatar list of some nice people I worked with. Are you ready to join them?"
+          priority
+        />
+        <p>kick things off...</p>
+      </div>
       <Button
         asChild
         size="lg"
@@ -49,6 +59,6 @@ export const HeroSection: React.FC = () => {
       <p className="text-gray-700 text-sm mt-2">
         Free 20 min. Product Feedback
       </p>
-    </div>
+    </section>
   );
 };
