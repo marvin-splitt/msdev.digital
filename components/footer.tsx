@@ -27,7 +27,7 @@ export const Footer = () => {
         <div className="flex flex-col">
           <Image
             src={LogoLight}
-            alt="Logo msdev.digital - Marvin Splitt Product Developer"
+            alt="Logo msdev.digital - Marvin Splitt Product Engineer"
           />
           <span className="mt-3 text-sm text-white">
             &copy; {year} Marvin Splitt.

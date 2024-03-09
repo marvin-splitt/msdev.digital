@@ -28,7 +28,7 @@ export const AboutSection: React.FC = () => {
         <div className="relative lg:w-[55%] w-full">
           <Image
             src={Marvin}
-            alt="Marvin Splitt - A Freelance Full-Stack Product Developer with focus on the conception and development of lean MVP's"
+            alt="Marvin Splitt - A Freelance Full-Stack Product Engineer with focus on the conception and development of lean MVP's"
             className="rounded-md w-full h-auto object-contain"
             placeholder="blur"
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -55,7 +55,7 @@ export const AboutSection: React.FC = () => {
             my name is Marvin
           </h2>
           <p className="text-lg md:text-xl">
-            A Freelance Full-Stack Product Developer with a passion for the
+            A Freelance Full-Stack Product Engineer with a passion for the
             development of lean prototype-driven products.
           </p>
           <p>

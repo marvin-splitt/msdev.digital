@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
           src={Logo}
           height={100}
           width={100}
-          alt="Logo msdev.digital - Marvin Splitt Product Developer"
+          alt="Logo msdev.digital - Marvin Splitt Product Engineer"
           priority
         />
         <span className="sr-only">Marvin Splitt</span>

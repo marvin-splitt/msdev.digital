@@ -36,7 +36,7 @@ export const HeroSection: React.FC = () => {
         className="rounded-3xl mt-14 font-semibold text-base"
       >
         <Link target="_blank" href={meetingLink} className="font-semibold">
-          Book product audit
+          Book product review
         </Link>
       </Button>
       <p className="text-gray-700 text-sm mt-2">

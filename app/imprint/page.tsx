@@ -9,9 +9,9 @@ const Imprint = () => {
       <p>
         Marvin Splitt
         <br />
-        Leipziger Str. 28A
+        Bramfelder Chaussee 253a
         <br />
-        39112 Magdeburg
+        22177 Hamburg
         <br />
         Germany
       </p>

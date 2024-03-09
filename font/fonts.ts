@@ -5,12 +5,17 @@ export const aeonik = localFont({
   variable: "--font-aeonik",
   src: [
     {
-      path: "./AeonikPro-Regular.otf",
+      path: "./AeonikPro-Light.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./AeonikPro-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./AeonikPro-Bold.otf",
+      path: "./AeonikPro-Bold.woff2",
       weight: "700",
       style: "normal",
     },
