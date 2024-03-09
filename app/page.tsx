@@ -7,7 +7,8 @@ import { ServiceSection } from "@/components/service-section";
 import { WorkflowSection } from "@/components/workflow-section";
 import { UspSection } from "@/components/usp-section";
 import { CtaSection } from "@/components/cta-section";
-import { FaqSection } from "../components/faq-section";
+import { FaqSection } from "@/components/faq-section";
+import { ProjectSection } from "@/components/project-section";
 
 export default function Home() {
   return (
@@ -18,22 +19,12 @@ export default function Home() {
       <AboutSection />
       <QuoteSection />
       <ServiceSection />
+      <ProjectSection />
       <WorkflowSection />
       <UspSection />
       <FaqSection />
       <CtaSection />
       <LogoSection />
-      {/* <div className="flex flex-row justify-center gap-6 mt-8 items-center">
-        <Link href="https://www.linkedin.com/in/marvin-splitt/">
-          <Image src={LinkedIn} height={24} width={24} alt="LinkedIn" />
-        </Link>
-        <Link href="https://twitter.com/marvinsplitt">
-          <Image src={Twitter} height={24} width={24} alt="Twitter" />
-        </Link>
-        <Link href="https://github.com/marvin-splitt">
-          <Image src={GitHub} height={24} width={24} alt="GitHub" />
-        </Link>
-      </div> */}
     </>
   );
 }

@@ -5,7 +5,7 @@ import { SectionWrapper } from "./section-wrapper";
 
 export const UspSection: React.FC = () => {
   return (
-    <div className="bg-accent-blue">
+    <div className="bg-[#1363811A]">
       <SectionWrapper
         title="In any case, you will receive..."
         description="Swift adjustments without bureaucratic burden. 100% commitment to your

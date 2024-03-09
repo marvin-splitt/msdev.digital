@@ -2,19 +2,17 @@ import Image from "next/image";
 import { Button } from "./button";
 import LightBulb from "@/public/services/light-bulb.svg";
 import Phone from "@/public/services/phone.svg";
-import Coffee from "@/public/services/coffee.svg";
 import Link from "next/link";
-import { coffeeLink, meetingLink } from "@/config/global";
+import { meetingLink } from "@/config/global";
 import { SectionWrapper } from "./section-wrapper";
 
 export const ServiceSection: React.FC = () => {
   return (
     <SectionWrapper
-      title="Conception and development of lean products"
+      title="Ideation and development of lean products"
       description="I support you where your challenges lie. Be it in the initial validation of your idea or in further product development."
     >
       <div className="flex flex-col lg:grid lg:grid-cols-2 mt-14 gap-5">
-        {/* <div className="flex flex-col gap-4 col-span-3"> */}
         <div className="border-2 rounded-lg border-black p-8 bg-[#D2572D1A] flex flex-row gap-5 items-center">
           <div>
             <div className="flex flex-col">
