@@ -1,18 +1,18 @@
 import { ProjectExcerpt } from "@/config/projects";
 import { cn } from "@/lib/utils";
 
-type ProjectCardProps = {
+interface ProjectCardProps extends React.HTMLAttributes<HTMLDivElement> {
   project: ProjectExcerpt;
-};
+}
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
-  project: { title, description, timeRange, tags },
+  project: { title, description, timeRange, tags, ...rest },
 }) => {
   return (
-    <div className="p-4 border border-black rounded-xl">
+    <div {...rest} className="p-4 border border-black rounded-xl">
       <p className="text-accent text-sm">{timeRange}</p>
       <h5 className="font-semibold text-2xl mt-2.5">{title}</h5>
-      <p className="text-lg mt-2.5">{description}</p>
+      <p className="mt-2.5">{description}</p>
       <div className="mt-4 flex flex-row gap-2 flex-wrap">
         {tags.map((tag) => (
           <span
