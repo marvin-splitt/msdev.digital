@@ -68,7 +68,7 @@ export const AboutSection: React.FC = () => {
             {perks.map((perk) => (
               <div
                 key={perk.name}
-                className="flex flex-row items-center whitespace-nowrap gap-1 text-sm text-gray-500 bg-gray-100 rounded-2xl px-3 py-1.5"
+                className="flex flex-row items-center whitespace-nowrap gap-1 text-sm text-[#515151] bg-gray-100 rounded-2xl px-3 py-1.5"
               >
                 <span>{perk.emoji}</span>
                 <span>{perk.name}</span>
@@ -81,7 +81,7 @@ export const AboutSection: React.FC = () => {
         {perks.map((perk) => (
           <div
             key={perk.name}
-            className="flex flex-row items-center whitespace-nowrap gap-1 text-sm text-gray-500 bg-gray-100 rounded-2xl px-3 py-1.5"
+            className="flex flex-row items-center whitespace-nowrap gap-1 text-sm text-[#515151] bg-gray-100 rounded-2xl px-3 py-1.5"
           >
             <span>{perk.emoji}</span>
             <span>{perk.name}</span>
