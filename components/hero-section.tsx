@@ -3,6 +3,7 @@ import { Button } from "./button";
 import Link from "next/link";
 import Arrow from "@/public/icons/arrow.svg";
 import { meetingLink } from "@/config/global";
+import HeroProfile from "@/public/hero/hero-profile.svg";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -23,12 +24,18 @@ export const HeroSection: React.FC = () => {
           alt="Arrow Icon"
         />
       </div>
-      <p className="max-w-3xl text-center text-lg lg:text-2xl mt-10">
+      <p className="max-w-3xl text-center text-lg lg:text-2xl mt-10 relative">
         Helping startups and scale-ups transform product vision into
         production-ready features.
         {/* that enable products that customers love. */}
         {/* <br className="hidden xs:block sm:hidden" /> */}
         {/* Fast, efficient and without unnecessary costs. */}
+        <Image
+          src={HeroProfile}
+          alt="Marvin Splitt drinking coffee and smiling."
+          className=" invisible lg:visible h-48 w-auto absolute -left-52 -top-5"
+          priority
+        />
       </p>
       <Button
         asChild
