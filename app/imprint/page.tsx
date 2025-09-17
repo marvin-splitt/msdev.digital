@@ -5,18 +5,11 @@ const Imprint = () => {
   return (
     <main className="container prose-custom mx-auto pb-24 pt-12">
       <h1>Imprint</h1>
-      <p>Information pursuant to § 5 TMG:</p>
       <p>
         Marvin Splitt
-        <br />
-        Bramfelder Chaussee 253a
-        <br />
-        22177 Hamburg
-        <br />
-        Germany
       </p>
       <p>
-        <Link href="mailto:marvin@msdev.digital">marvin@msdev.digital</Link>
+        <Link href="mailto:marvin@msdev.digital">marvin[at]msdev.digital</Link>
       </p>
       <hr />
       <p>
